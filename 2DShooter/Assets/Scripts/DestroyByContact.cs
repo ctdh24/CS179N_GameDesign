@@ -10,12 +10,18 @@ public class DestroyByContact : MonoBehaviour {
 	public int bulletDamage;
 	public GameObject asteroidhit;
 	public GameObject spanwedEnemies;
+	public GameObject Player;
+	//public Transform spawnPlayer; //source of the weapon
 
 	public int attackDamage;
 
 	GameObject player;                          // Reference to the player GameObject.
 	PlayerHealth playerHealth;                  // Reference to the player's health.
 	EnemyHealth enemyHealth;                    // Reference to this enemy's health.
+
+	IEnumerator MyMethod(){
+		yield return new WaitForSeconds (1);
+	}
 
 	void Start()
 	{
@@ -36,7 +42,7 @@ public class DestroyByContact : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 
-		if (other.tag != "Player" && other.tag != "Enemy") {
+		if (other.tag != "Player" && other.tag != "Enemy" && other.tag!="BackColider") {
 				enemyHealth.TakeDamage (bulletDamage);
 				Instantiate (asteroidhit, transform.position, transform.rotation);
 				Destroy (other.gameObject);
@@ -51,8 +57,12 @@ public class DestroyByContact : MonoBehaviour {
 			}
 		}
 
-		if (other.tag != "Player" && other.tag == "Enemy3"){
+		if (other.tag == "BackColider") {
+				Destroy (gameObject);
+		}
 
+		if (other.tag != "Player" && other.tag == "Enemy"){
+			/*
 			enemyHealth.TakeDamage (bulletDamage);
 			Instantiate (asteroidhit, transform.position, transform.rotation);
 			Destroy (other.gameObject);
@@ -60,15 +70,17 @@ public class DestroyByContact : MonoBehaviour {
 			if (enemyHealth.currentHealth <= 0) {
 				Instantiate (explosion, transform.position, transform.rotation);
 				Destroy (gameObject);
-			}
+			}*/
 			return;
 		}
-		/*
-		if (other.tag == "Enemy2") {
-				Destroy (gameObject);
-				Instantiate (explosion, transform.position, transform.rotation);
-		}
-		*/
+//		/
+//		if (other.tag == "Enemy2") {
+//				Destroy (gameObject);
+//				Instantiate (explosion, transform.position, transform.rotation);
+//		}
+
+		if (other.tag == "Trigger")
+			return;
 
 		//Destroy (gameObject);
 		if (other.tag == "Player") {

@@ -8,10 +8,14 @@ public class LevelEnder : MonoBehaviour {
 	public GUIText levelEndText;
 
 	private bool endofLevel = false;
-	
+
+	public GameObject boss; 
+	boss1body bossHealth;
+
 	void Start()
 	{
 		levelEndText.text = "";
+		bossHealth = boss.GetComponent<boss1body> ();
 
 	}
 	
@@ -26,8 +30,10 @@ public class LevelEnder : MonoBehaviour {
 	
 	public void LevelComplete ()
 	{
-		levelEndText.text = "Level Complete!";
-		endofLevel = true;
+		if(bossHealth.body_hp < 0){
+			levelEndText.text = "Level Complete!";
+			endofLevel = true;
+		}
 
 	}
 	

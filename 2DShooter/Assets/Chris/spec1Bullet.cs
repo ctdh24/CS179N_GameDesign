@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class spec1Bullet : MonoBehaviour {
-	public float spec1Damage;
-	private float Spec1FireRate = 0.3f;
+//	public float spec1Damage;
+//	private float Spec1FireRate = 0.3f;
 	//private string spec1name = "Enemy3";
-	private float spec1speed = 12.0f;
+	private float spec1speed = 8.5f;
 	public int attackDamage = 25;
 
 	private GameController gameController;
@@ -35,7 +35,7 @@ public class spec1Bullet : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Destroy (this.gameObject, 2);
+		Destroy (this.gameObject, 8);
 	}
 
 	void OnTriggerEnter(Collider target){

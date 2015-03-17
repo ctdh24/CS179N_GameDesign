@@ -51,7 +51,10 @@
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Shaders\Rim Lit Bumped Specular.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/winrichsy/Desktop/CS179N_GameDesign 5 2_26_15 2/2DShooter/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>/Users/winrichsy/Desktop/dont change 4 safe/2DShooter/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/winrichsy/Desktop/dont change 4 safe/2DShooter/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>

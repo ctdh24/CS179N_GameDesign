@@ -50,7 +50,7 @@ public class PlayMove : MonoBehaviour {
 			}
 		}
 		if (Input.GetKey (KeyCode.D)) {
-			if (transform.position.z <= 12.5){
+			if (transform.position.z <= 14.5){
 				transform.position += transform.forward * 10.0f * Time.deltaTime;
 				currPosition = transform.position;
 			}

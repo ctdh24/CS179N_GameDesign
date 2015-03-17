@@ -6,9 +6,7 @@ public class EnemyHealth : MonoBehaviour
     public int currentHealth;
 
     bool isDead;
-
-
-
+	
     void Awake ()
     {
         currentHealth = startingHealth;

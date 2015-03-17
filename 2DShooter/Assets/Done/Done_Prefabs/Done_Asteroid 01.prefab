@@ -134,6 +134,8 @@ MonoBehaviour:
   scoreValue: 10
   bulletDamage: 20
   asteroidhit: {fileID: 100012, guid: 160925a6fe2664f2a978566b819f0af0, type: 2}
+  spanwedEnemies: {fileID: 0}
+  spawnPlayer: {fileID: 172696, guid: 8afe1bd55bc874a089afc54bd58bf1fc, type: 2}
   attackDamage: 10
 --- !u!114 &11400006
 MonoBehaviour:

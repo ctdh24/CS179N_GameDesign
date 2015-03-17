@@ -30,7 +30,7 @@ GameObject:
   - 114: {fileID: 11454520}
   m_Layer: 0
   m_Name: laser 1
-  m_TagString: Projectile
+  m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0bd41788290f44afb221ff6d05106d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spec1Damage: 10
   attackDamage: 25
   explosion: {fileID: 0}
   playerExplosion: {fileID: 100008, guid: 3455fe69f7ddc4604b95bf9b0a1e88d7, type: 2}
