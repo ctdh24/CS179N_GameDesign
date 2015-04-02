@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: extrude
+  serializedVersion: 4
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .69351995, y: -.13794969, z: -.13794969, w: .69351995}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 3
+      - time: .458333343
+        value: {x: .69351995, y: -.13794969, z: -.13794969, w: .69351995}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 2
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: pileBunker/pCone1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 3
+      - time: .458333343
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 2
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: pileBunker/pCylinder7
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -9.63681401e-09, y: 3.99169942e-09, z: -.368618459}
+        inSlope: {x: -1.73707929e-22, y: 2.89513214e-23, z: -2.0788093e-06}
+        outSlope: {x: -1.73707929e-22, y: 2.89513214e-23, z: -2.0788093e-06}
+        tangentMode: 103399620
+      - time: .458333343
+        value: {x: -9.63681401e-09, y: 3.99169942e-09, z: 1.8115381}
+        inSlope: {x: -7.44462804e-23, y: 1.24077123e-23, z: -1.52156772e-05}
+        outSlope: {x: -7.44462804e-23, y: 1.24077123e-23, z: -1.52156772e-05}
+        tangentMode: 111589544
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: pileBunker/pCone1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: -.407579035}
+        inSlope: {x: -0, y: -0, z: 4.91127003e-06}
+        outSlope: {x: -0, y: -0, z: 4.91127003e-06}
+        tangentMode: 103399620
+      - time: .458333343
+        value: {x: -0, y: 0, z: .298906654}
+        inSlope: {x: -0, y: -0, z: -2.33665537e-06}
+        outSlope: {x: -0, y: -0, z: -2.33665537e-06}
+        tangentMode: 111589544
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: pileBunker/pCylinder7
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.10000002, y: 1.10000002, z: 1.10000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 103399620
+      - time: .458333343
+        value: {x: 1.10000002, y: 1.10000002, z: 1.10000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 111589544
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: pileBunker/pCone1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.16591442, y: 1.16591442, z: 1.16591442}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 103399620
+      - time: .458333343
+        value: {x: 1.16591442, y: 1.16591442, z: 1.16591442}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 111589544
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: pileBunker/pCylinder7
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 7.4505806e-09, y: -.464288056, z: 1.80075097}
+    m_Extent: {x: .120975904, y: .120975912, z: .918469667}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 4.95833349
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

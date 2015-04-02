@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 1b67a903f1ae845128b10712b9562e11
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Backthrusters
+    100002: Bottompart
+    100004: chest
+    100006: GunArm
+    100008: gunarm
+    100010: head
+    100012: head1
+    100014: hip
+    100016: leftArm
+    100018: leftArm 1
+    100020: leftElbow
+    100022: leftShoulder
+    100024: leftShoulder1
+    100026: leftShoulderJoint
+    100028: leftUpperArm
+    100030: LowerBody
+    100032: pCone2
+    100034: pCube13
+    100036: pCube14
+    100038: pCylinder20
+    100040: pCylinder21
+    100042: pCylinder4
+    100044: pCylinder5
+    100046: pCylinder6
+    100048: pCylinder7
+    100050: pSphere4
+    100052: pSphere5
+    100054: rightElbow1
+    100056: rightShoulder
+    100058: rightShoulder1
+    100060: rightShoulderJoint
+    100062: rightUpperArm
+    100064: //RootNode
+    100066: torso
+    100068: upperBody
+    400000: Backthrusters
+    400002: Bottompart
+    400004: chest
+    400006: GunArm
+    400008: gunarm
+    400010: head
+    400012: head1
+    400014: hip
+    400016: leftArm
+    400018: leftArm 1
+    400020: leftElbow
+    400022: leftShoulder
+    400024: leftShoulder1
+    400026: leftShoulderJoint
+    400028: leftUpperArm
+    400030: LowerBody
+    400032: pCone2
+    400034: pCube13
+    400036: pCube14
+    400038: pCylinder20
+    400040: pCylinder21
+    400042: pCylinder4
+    400044: pCylinder5
+    400046: pCylinder6
+    400048: pCylinder7
+    400050: pSphere4
+    400052: pSphere5
+    400054: rightElbow1
+    400056: rightShoulder
+    400058: rightShoulder1
+    400060: rightShoulderJoint
+    400062: rightUpperArm
+    400064: //RootNode
+    400066: torso
+    400068: upperBody
+    2300000: Backthrusters
+    2300002: gunarm
+    2300004: leftArm 1
+    2300006: leftShoulder
+    2300008: leftShoulderJoint
+    2300010: LowerBody
+    2300012: pCone2
+    2300014: pCube13
+    2300016: pCube14
+    2300018: pCylinder20
+    2300020: pCylinder21
+    2300022: pCylinder4
+    2300024: pCylinder5
+    2300026: pCylinder6
+    2300028: pCylinder7
+    2300030: pSphere4
+    2300032: pSphere5
+    2300034: rightShoulder
+    2300036: rightShoulderJoint
+    2300038: torso
+    3300000: Backthrusters
+    3300002: gunarm
+    3300004: leftArm 1
+    3300006: leftShoulder
+    3300008: leftShoulderJoint
+    3300010: LowerBody
+    3300012: pCone2
+    3300014: pCube13
+    3300016: pCube14
+    3300018: pCylinder20
+    3300020: pCylinder21
+    3300022: pCylinder4
+    3300024: pCylinder5
+    3300026: pCylinder6
+    3300028: pCylinder7
+    3300030: pSphere4
+    3300032: pSphere5
+    3300034: rightShoulder
+    3300036: rightShoulderJoint
+    3300038: torso
+    4300000: pCylinder5
+    4300002: pCylinder6
+    4300004: pCylinder7
+    4300006: pCylinder4
+    4300008: torso
+    4300010: Backthrusters
+    4300012: rightShoulder
+    4300014: rightShoulderJoint
+    4300016: gunarm
+    4300018: pCylinder20
+    4300020: leftShoulder
+    4300022: leftShoulderJoint
+    4300024: leftArm
+    4300026: pSphere5
+    4300028: pCone2
+    4300030: LowerBody
+    4300032: pSphere4
+    4300034: pCylinder21
+    4300036: pCube13
+    4300038: pCube14
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .300000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
